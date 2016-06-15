@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>美丽新西藏新闻专题</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row head-nav">
+            <div class="head-nav-wrap">
+                <div class="home">
+                    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;新华时政
+                </div>
+                <div class="site-nav"><span>新华网首页</span>|<span>新观察</span>|<span>微观中国</span>|<span>新华悦读</span>|<span>新华资料</span>|<span>新华法治</span>|<span>新华地方</span></div>
+            </div>
+        </div>
+        <div class="row topic-abs">
+            <div class="topic-wrap">
+                <div class="topic-title">
+                    <h1>美丽新西藏</h1>
+                    <p>
+                        庆祝西藏和平解放65周年
+                    </p>
+                </div>
+                <div class="abs">
+                    <p>６５年前的１９５１年５月２３日，中央人民政府和西藏地方政府在北京签订了关于和平解放西藏办法的“十七条协议”，开启了西藏社会发展史上具有划时代意义的历史转折。从此，政教合一的“喇嘛王国”变成历史，一个崭新的西藏开始屹立在地球之巅。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>图片</h2>
+                <div class="slider-wrapper theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <img src="images/toystory.jpg" alt="">
+                        <img src="images/nemo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h2>大美西藏</h2>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nivo.slider.pack.js"></script>
+    <script>
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+
+</html>
